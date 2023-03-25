@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "//jumpedfox.github.io/diamondY/static/css/main.e44aaf71.css",
+    "main.js": "//jumpedfox.github.io/diamondY/static/js/main.bb370a56.js",
+    "static/js/787.6a8fc46c.chunk.js": "//jumpedfox.github.io/diamondY/static/js/787.6a8fc46c.chunk.js",
+    "static/media/dresses.png": "//jumpedfox.github.io/diamondY/static/media/dresses.27a6c6752387b4ae91ce.png",
+    "static/media/Ellipse6.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse6.1e987d0f61891690e9fb.png",
+    "static/media/Maskgroup2.png": "//jumpedfox.github.io/diamondY/static/media/Maskgroup2.589b9963ecf942aca72e.png",
+    "static/media/Rectangle1.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle1.741c9bef0fb236da492b.png",
+    "static/media/Rectangle4.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle4.0519ffef5f560a8b1041.png",
+    "static/media/Maskgroup1.png": "//jumpedfox.github.io/diamondY/static/media/Maskgroup1.86bfc89d4f0bc14c9119.png",
+    "static/media/Rectangle3.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle3.a80f879dd7865dabeaed.png",
+    "static/media/Ellipse6mobile.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse6mobile.5500b6f81501aac8dff1.png",
+    "static/media/Rectangle6.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle6.8b1ab6be3355daaf97c9.png",
+    "static/media/Rectangle2.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle2.5d28b2d049ee5c9f2d5d.png",
+    "static/media/Rectangle5.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle5.a5f0700c1311985c66b3.png",
+    "static/media/Ellipse7mobile.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse7mobile.ea4b3d14d39121070dae.png",
+    "static/media/Ellipse7pc.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse7pc.e52a046fb82260f851a1.png",
+    "static/media/Ellipse71.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse71.594e76c3e4e2c073091d.png",
+    "static/media/Ellipse8.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse8.407d2e8844820aa5f5df.png",
+    "index.html": "//jumpedfox.github.io/diamondY/index.html",
+    "main.e44aaf71.css.map": "//jumpedfox.github.io/diamondY/static/css/main.e44aaf71.css.map",
+    "main.bb370a56.js.map": "//jumpedfox.github.io/diamondY/static/js/main.bb370a56.js.map",
+    "787.6a8fc46c.chunk.js.map": "//jumpedfox.github.io/diamondY/static/js/787.6a8fc46c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e44aaf71.css",
+    "static/js/main.bb370a56.js"
+  ]
+}
