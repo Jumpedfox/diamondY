@@ -1,0 +1,20 @@
+.react-slideshow-container {
+  width: 320px;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 10px 0 20px;
+}
+
+.react-slideshow-wrapper {
+  height: 360px;
+}
+
+.indicators {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+  background: rgba(186, 130, 105, 1);
+
+}
