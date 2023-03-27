@@ -1,9 +1,20 @@
 import "./header.scss";
 import React, { useEffect, useState } from "react";
+import MobileMenu from "../component_MOBILE_MENU/mobilemenu";
 
 const Header = () => {
   const [small, setSmall] = useState(false);
   const [smallMobile, setSmallMobile] = useState(false);
+  const [mobileMenuIsActive, setMobileMenuIsActive] = useState(false);
+  const [tooltipStatus, setTooltipStatus] = useState(false);
+
+  const handlePhoneClick = () => {
+    navigator.clipboard.writeText("467547998");
+    setTooltipStatus(true);
+    setTimeout(() => {
+      setTooltipStatus(false);
+    }, 3000);
+  };
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -21,7 +32,9 @@ const Header = () => {
 
   return (
     <header
-      className={`${small ? "small" : ""}${smallMobile ? "small smallMobile" : ""}`}
+      className={`${small ? "small" : ""}${
+        smallMobile ? "small smallMobile" : ""
+      }`}
     >
       <a className="logo" href="#home"></a>
       {window.innerWidth > 425 && (
@@ -42,13 +55,23 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <span className="number">467 547 998</span>
+          <a className="number" href="tel:467547998">467 547 998</a>
         </>
       )}
       {window.innerWidth <= 425 && (
         <>
-          <span className="number"></span>
-          <button></button>
+          {tooltipStatus ? (
+            <span className="tooltip">copied</span>
+          ) : (
+            <span className="number" onClick={handlePhoneClick}></span>
+          )}
+          <button onClick={() => setMobileMenuIsActive(true)} />
+          {mobileMenuIsActive && (
+            <MobileMenu
+              mobileMenuIsActive={mobileMenuIsActive}
+              setMobileMenuIsActive={setMobileMenuIsActive}
+            />
+          )}
         </>
       )}
     </header>

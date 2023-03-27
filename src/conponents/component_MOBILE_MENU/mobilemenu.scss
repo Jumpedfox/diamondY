@@ -1,0 +1,49 @@
+@keyframes appearing {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu-mobile {
+    position: fixed;
+    width: 184px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    z-index: 13;
+    cursor: pointer;
+
+    & ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-between;
+      padding: 50px;
+      margin: 0;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    &-wrapper {
+      left: 0;
+      top: 0;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 12;
+    }
+
+    &-active {
+      animation: 0.3s appearing;
+    }
+  }
+}

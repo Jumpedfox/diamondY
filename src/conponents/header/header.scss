@@ -1,9 +1,39 @@
+@keyframes tooltip {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes phone {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .small {
   height: 40px;
 }
 
 .smallMobile {
   top: 0;
+}
+
+.tooltip {
+  text-align: center;
+  width: fit-content;
+  font-size: 18px;
+  opacity: 0;
+  animation: 3s tooltip;
+  margin-right: -120px;
 }
 
 header {
@@ -81,13 +111,13 @@ header {
   .number {
     width: 150px;
     font-size: 20px;
-    user-select: all;
     position: relative;
 
     @media (max-width: 425px) {
       width: 20px;
       height: 20px;
       margin: 0 20px 0 auto;
+      animation: .5s phone;
     }
 
     &::before {
@@ -106,6 +136,7 @@ header {
         top: 1px;
         width: 16px;
         height: 18px;
+        transition: 1s;
       }
     }
   }

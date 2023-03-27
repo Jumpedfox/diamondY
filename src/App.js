@@ -1,4 +1,6 @@
+import { useState } from "react";
 import "./App.scss";
+import SignupModal from "./conponents/component_SIGNUP/signupmodal";
 import Header from "./conponents/header/header";
 import SectionAbout from "./conponents/section_ABOUT/sectionabout";
 import SectionCollection from "./conponents/section_COLLECTION/sectioncollection";
@@ -7,28 +9,28 @@ import SectionHome from "./conponents/section_HOME/sectionhome";
 import SectionQuestions from "./conponents/section_QUESTIONS/sectionquestions";
 
 function App() {
-  // header change animation
-  // let header = document.querySelector("header");
-  // document.addEventListener("scroll", function () {
-  //   let scrollPos = window.pageYOffset;
+  const [signupModalIsOpen, setSignupMOdalIsOpen] = useState(false);
+  const [closeModalAnimation, setCloseModalAnimation] = useState(false);
 
-  //   if (scrollPos > 100) {
-  //     header.style.background = "url(./1234.png)";
-  //     header.style.color = "white";
-  //     header.style.top = "-30px";
-  //   } else {
-  //     header.style.background = "url(./123.png)";
-  //     header.style.color = "rgba(186, 130, 105, 1)";
-  //     header.style.top = "0";
-  //   }
-  // });
+  const closeSignupModal = () => {
+    setTimeout(() => {
+      setSignupMOdalIsOpen(false);
+    }, 1000);
+  };
 
   return (
     <div className="App">
+      {signupModalIsOpen && (
+        <SignupModal
+          closeSignupModal={closeSignupModal}
+          closeModalAnimation={closeModalAnimation}
+          setCloseModalAnimation={setCloseModalAnimation}
+        />
+      )}
       <Header />
-      <SectionHome />
+      <SectionHome setSignupMOdalIsOpen={setSignupMOdalIsOpen} />
       <SectionAbout />
-      <SectionCollection />
+      <SectionCollection setSignupMOdalIsOpen={setSignupMOdalIsOpen} />
       <SectionQuestions />
       <SectionContacts />
     </div>

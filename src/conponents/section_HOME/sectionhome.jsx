@@ -1,11 +1,11 @@
 import "./sectionhome.scss";
 
-const SectionHome = () => {
+const SectionHome = ({setSignupMOdalIsOpen}) => {
   return (
     <section id="home" className="section-home">
       <div className="decoration-1" />
       <span>wedding dresses collection 2023</span>
-      <button className="signup-button">sign up now</button>
+      <button className="signup-button" onClick={setSignupMOdalIsOpen}>sign up now</button>
     </section>
   );
 };
