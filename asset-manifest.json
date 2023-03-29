@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "//jumpedfox.github.io/diamondY/static/css/main.c1221801.css",
-    "main.js": "//jumpedfox.github.io/diamondY/static/js/main.b98bd479.js",
+    "main.css": "//jumpedfox.github.io/diamondY/static/css/main.2d263692.css",
+    "main.js": "//jumpedfox.github.io/diamondY/static/js/main.9c97d75e.js",
     "static/js/787.6a8fc46c.chunk.js": "//jumpedfox.github.io/diamondY/static/js/787.6a8fc46c.chunk.js",
     "static/media/dresses.png": "//jumpedfox.github.io/diamondY/static/media/dresses.27a6c6752387b4ae91ce.png",
     "static/media/Ellipse6.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse6.1e987d0f61891690e9fb.png",
@@ -14,17 +14,17 @@
     "static/media/Rectangle6.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle6.8b1ab6be3355daaf97c9.png",
     "static/media/Rectangle2.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle2.5d28b2d049ee5c9f2d5d.png",
     "static/media/Rectangle5.png": "//jumpedfox.github.io/diamondY/static/media/Rectangle5.a5f0700c1311985c66b3.png",
-    "static/media/Ellipse7mobile.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse7mobile.ea4b3d14d39121070dae.png",
     "static/media/Ellipse7pc.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse7pc.e52a046fb82260f851a1.png",
     "static/media/Ellipse71.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse71.594e76c3e4e2c073091d.png",
     "static/media/Ellipse8.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse8.407d2e8844820aa5f5df.png",
+    "static/media/Ellipse711.png": "//jumpedfox.github.io/diamondY/static/media/Ellipse711.4149ff7838cfcc7c45d3.png",
     "index.html": "//jumpedfox.github.io/diamondY/index.html",
-    "main.c1221801.css.map": "//jumpedfox.github.io/diamondY/static/css/main.c1221801.css.map",
-    "main.b98bd479.js.map": "//jumpedfox.github.io/diamondY/static/js/main.b98bd479.js.map",
+    "main.2d263692.css.map": "//jumpedfox.github.io/diamondY/static/css/main.2d263692.css.map",
+    "main.9c97d75e.js.map": "//jumpedfox.github.io/diamondY/static/js/main.9c97d75e.js.map",
     "787.6a8fc46c.chunk.js.map": "//jumpedfox.github.io/diamondY/static/js/787.6a8fc46c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1221801.css",
-    "static/js/main.b98bd479.js"
+    "static/css/main.2d263692.css",
+    "static/js/main.9c97d75e.js"
   ]
 }
